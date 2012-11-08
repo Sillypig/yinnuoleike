@@ -1,0 +1,6 @@
+# This file should be tracked also.
+
+# MAC, TOOLS, ETC
+.DS_Store
+/nbproject
+/nbproject/*
