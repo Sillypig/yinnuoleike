@@ -5,4 +5,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /yinnuoleike/htdocs/$1
 RewriteCond %{HTTP_HOST} ^(www.)?innolake.com$
-RewriteRule ^(/)?$ yinnuoleike/htdocs/index.php [L]
+RewriteRule ^(/)?$ index.php [L]
