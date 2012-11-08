@@ -13,10 +13,10 @@
 								<img src="images/152309621833020.jpg" width="80" alt="" />
 							</div>
 							<h1>
-								<strong></strong>Suzani Saappaat<br />
+								<strong></strong>Suzani<br />
 							</h1>
 							<p>
-								Kaikki Suzanin saappaat valmistetaan käsityöna korkealaatuisesta nahasta. Jokainen pari on uniikki ja ainutlaatuinen taideteos.
+								All Suzani boots are handmade from high quality leather. Each pair is an unique piece of art.
 							</p>
 						</li>
 						<li>
@@ -30,7 +30,7 @@
 								Rumba
 							</h1>
 							<p>
-								Rumba on rock- ja pop-musiikkiin keskittyvä lehti, joka kiteyttää kansiensa väliin alan uutiset, ilmiöt ja tapahtumat.
+								Rumba is a magazine focused on pop and rock music. It brings together all the current news, phenomena and events.
 							</p>
 						</li>
 						<li>
@@ -44,7 +44,7 @@
 								Inferno
 							</h1>
 							<p>
-								Metalli on Suomessa kansanmusiikkia, ja kansanmusiikki tarvitsee arvoisensa pää-äänenkannattajan.
+								Metal is Finlands national music and it needs a voice worth it.
 							</p>
 						</li>
 						<li>
@@ -58,7 +58,7 @@
 								Episodi
 							</h1>
 							<p>
-								Episodi on korkealaatuinen lehti elokuvan maailmasta. Aina ajankohtainen ja tyylikäs julkaisu tarkastelee elokuvia, niiden tekijöitä ja taustoja.
+								Episodi is a high quality movie magazine. Always on the edge of time and style it focuses on movies, film makers and movie backgrounds.
 							</p>
 						</li>
 						<li>
@@ -72,7 +72,7 @@
 								Fightsport
 							</h1>
 							<p>
-								FightSport.fi - kaikki mitä tarvitsee tietää kamppailulajeista.
+								FightSport.fi - everything you need to know about fightsports.
 							</p>
 						</li>
 						<li>
@@ -87,7 +87,7 @@
 								Pharma Optic FI
 							</h1>
 							<p>
-								Jo tuhannet asiakkaat Pohjoismaissa ostavat ilman vahvuuksia olevat värilliset piilolinssit Pharma Opticilta.
+								Thousands of customers in Skandinavia get their colored contact linses from Pharma Optic.
 							</p>
 						</li>
 						<li>
@@ -101,7 +101,7 @@
 								Hifimaailma
 							</h1>
 							<p>
-								Hifimaailma-lehti kertoo laadukkaasta äänen- ja kuvantoistosta, esittelee uusimmat tuotteet, kertoo uusimmat uutiset, testaa ja kokeilee, vertailee, raportoi, opastaa ja neuvoo.
+								Hifimaailma magazine is about high quality sound and image systems. It presents the newest products, tells the current news, tests and compares the equipment, gives you raports, quidance and advice.
 							</p>
 						</li>
 						<li>
@@ -131,7 +131,7 @@
 								Heppatarvike
 							</h1>
 							<p>
-								Tervetuloa Heppatarvikkeeseen, Kotkan Jylpylle. Myymälämme on yli 100 neliöinen, jota alamme laajentamaan Tammikuussa 2012.
+								Welcome to the Heppatarvike, a store located in Kotka, Finland, where you can purchase everything you need for your riding hobby.
 							</p>
 						</li>
 					</ul>

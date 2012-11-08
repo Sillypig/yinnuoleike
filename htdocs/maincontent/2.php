@@ -3,8 +3,8 @@
 		<tbody>
 			<tr>
 				<td colspan="2">
-					<h1 style="text-align: center;" class="center">Uusi kauppakanava Facebook-sivullasi</h1>
-					<h2 style="text-align: center;" class="center grey p30">Facebook-verkkokauppa</h2>
+					<h1 style="text-align: center;" class="center">New marketing channel in your Facebook site</h1>
+					<h2 style="text-align: center;" class="center grey p30">Webstore in Facebook</h2>
 					<p style="text-align: center;position:relative">
 						<img src="images/computers.jpg" width="700" alt="" />
 						<span id="computers1"></span>
@@ -24,8 +24,8 @@
 				</td>
 				<td style="text-align: left; padding: 10px; width: 50%">
 					<div class="col-3 poloroidcopy last">
-						<h2>Verkkokauppa Facebookin sisällä</h2>
-						<p>Jippostore f-Commerce on verkkokauppa Facebookissa. Uusi kauppakanava, jolla voit tavoittaa yli 900 miljoonaa potentiaalista asiakasta. Se on trendikäs, uudenlainen kauppakanavaratkaisu.</p>
+						<h2>Webstore inside Facebook</h2>
+						<p>Jippostore f-Commerce is a webstore in Facebook. New marketing channel that reaches over 900 million potential customers. It is trendy new marketing channel.</p>
 					</div>
 				</td>
 			</tr>
@@ -37,9 +37,9 @@
 			<tr>
 				<td style="padding:10px; width: 40%">
 					<div class="col-3 poloroidcopy last">
-						<h2>Tietoturva vakiovaruste</h2>
-						<p>Mielestämme ostamisen ja asioinnin pitää olla huipputurvallista. Jokainen Jippostore f-Commerce on vakiona Norton Verisign SSL-sertifioitu ilman lisähintaa.</p>
-						<p>Yhteistyössä Symantec Norton Secured - maailman johtavat tietoturvaratkaisut.</p>
+						<h2>Security included</h2>
+						<p>In our opinion, shopping in web should be of top safety. Every J product comes with SSL sertificate without any extra fees.</p>
+						<p>Leading data security solutions in collaboration with Symantec Norton.</p>
 					</div>
 				</td>
 				<td style="text-align:right;">
@@ -54,9 +54,9 @@
 			<tr>
 				<td style="text-align: left;width:400px;">
 					<img src="images/bank.jpg" width="350" alt="" /><br></td><td style="width:360px;"><div class="col-3 poloroidcopy last">
-						<h2>Kaikki maksutavat - vaikka yhdellä sopimuksella</h2>
-						<p>Jippostore f-Commerce tukee kaikkia maksutapoja ja mukautuu liiketoimintasi mukaan: MasterCard, Visa Electron, OP-Bank, Nordea Bank, Sampo Bank, Aktia Bank, Ålandsbanken, Handelsbanken, S-Bank, Tapiola Bank, Klarna, NetPosti, Svea Webbay, SEB Bank, Swedbank, Authorize.net (US). Halutessasi myös PayPal-maksaminen.</p>
-						<p>Olemme <a target="_blank" title="" href="http://www.verkkomaksut.fi">Suomen Verkkomaksujen</a> ja <a target="_blank" title="" href="https://www.maksuturva.fi/">Suomen Maksuturvan</a> partneri. Saat kauttamme yhdellä sopimuksella kaikki maksutavat. Tilitykset suoraan sinulle.</p>
+						<h2>All payment methods –  with just one contract</h2>
+						<p>Jippostore f-Commerce supports all available payment methods and adapts to your business: MasterCard, Visa Electron, OP-Bank, Nordea Bank, Sampo Bank, Aktia Bank, Ålandsbanken, Handelsbanken, S-Bank, Tapiola Bank, Klarna, NetPosti, Svea Webbay, SEB Bank, Swedbank, Authorize.net (US). Also PayPal available.</p>
+						<p>We are a partner of <a target="_blank" title="" href="http://www.verkkomaksut.fi/en/">Finnish Web Payments</a> and <a target="_blank" title="" href="https://www.maksuturva.fi/eng.html">Maksuturva</a>. You get all payment methods with just one contract. Straight to your account.</p>
 					</div>
 				</td>
 			</tr>
@@ -68,9 +68,9 @@
 			<tr>
 				<td style="width:258px;">
 					<div class="col-3 poloroidcopy last">
-						<h2>Näyttävyyttä, tyyliä ja väriä elämään</h2>
-						<p>Väritä kauppasi ajakohtaisilla tuotemainoksilla, jotka vaihtuvat upeasti tehostettuna.</p>
-						<p>Jippostore f-Commerce mukautuu brändiisi ja hallitset helposti mainoskuvia itse.</p>
+						<h2>Style and color in your life</h2>
+						<p>Give a colorful flavor to your store with fashionably changing product display ads.</p>
+						<p>Jippostore f-Commerce adapts to you brand and you can control your own display ads easily.</p>
 					</div>
 				</td>
 				<td style="text-align: right;width:480px;">
@@ -88,9 +88,9 @@
 				</td>
 				<td style="width:258px;">
 					<div class="col-3 poloroidcopy last">
-						<h2>Anna asiakkaiden mainostaa tuotteitasi ystävilleen Facebookissa</h2>
-						<p>Jippostore f-Commerce tarjoaa tuotekohtaisen tykkää-hinnan, jonka voit itse määritellä. Asiakas lunastaa tarjouksesi tykkäämällä tuotteestasi ja mainostaa samalla tuotetta ja kauppaasi ystävilleen.</p>
-						<p>Ystävien suositukset ovat ylivoimaisesti tehokkain tapa saada lisää uusia asiakkaita - ja vieläpä ilmaiseksi.</p></div>
+						<h2>Let your customers advertise your products to their friends</h2>
+						<p>Jippostore f-Commerceoffers a product specific like-price that you can determine. Customer reclaims your offer by liking the product and the same time giving free advertisement for your product and store.</p>
+						<p>Friend recommendations are the most efficient way to get new customers, without you having to pay for ads!</p></div>
 				</td>
 			</tr>
 		</tbody>

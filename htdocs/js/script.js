@@ -219,9 +219,9 @@ $(document).ready(function(){
 		$(window).scrollTop($('#brand').position().top);
 	};
 	
-	$("#computers1").retinaeffect({effect: '#retina_computers1',left: 110, top: 170});
+	/*$("#computers1").retinaeffect({effect: '#retina_computers1',left: 110, top: 170});
 	$("#computers2").retinaeffect({effect: '#retina_computers2',left:350, top: 35});
 	$("#computers3").retinaeffect({effect: '#retina_computers3',left:35, top: 35});
 	$("#computers4").retinaeffect({effect: '#retina_computers4',left:25, top: 25});
-	$("#computers5").retinaeffect({effect: '#retina_computers5',left:45, top: 25});
+	$("#computers5").retinaeffect({effect: '#retina_computers5',left:45, top: 25});*/
 });

@@ -1,11 +1,8 @@
 <?php
-/*if (file_exists("get.php")) {
-	include("get.php");
-}*/
 session_start();
 header('Cache-control: private'); // IE 6 FIX
 
-if ($_SESSION["lang_name"] == '' && $_REQUEST['lng'] == ''){ // Default language is 'fi'.
+/*if ($_SESSION["lang_name"] == '' && $_REQUEST['lng'] == ''){ // Default language is 'fi'.
 	$_SESSION["lang_name"] = 'fi';
 }
 elseif ($_SESSION["lang_name"] != '' && $_REQUEST['lng'] == ''){ // When Session 'lang_name' has value.
@@ -19,7 +16,7 @@ else{
 	}
 }
 
-include("languages/".$_SESSION["lang_name"].".php");
+include("languages/".$_SESSION["lang_name"].".php");*/
 
 if ( isset( $_POST['field'] ) ) {
 	$valid = TRUE;
@@ -204,9 +201,9 @@ unset($_SESSION['succeedMessage']);
 					  <img src="img/logo-jippo-footer.png" width="100" height="30" alt="Jippostore" />
 				  </a>
 			  </li>
-              <li class="showhide"><a href="#page_home"><?= $lang['etusivu']; ?></a></li>
-              <li class="showhide"><a href="#page_about"><?= $lang['tarina']; ?></a></li>
-              <li class="showhide"><a href="#page_contact"><?= $lang['yritys']; ?></a></li>
+              <li class="showhide"><a href="#page_home">Home</a></li>
+              <li class="showhide"><a href="#page_about">Story</a></li>
+              <li class="showhide"><a href="#page_contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

@@ -5,13 +5,13 @@
 </div>
 
 <div id="caption1" class="nivo-caption">
-	Sinun brändisi Facebookissa helposti ja näyttävästi.
+	Your brand on Facebook.
 </div>
 
 <div id="caption2" class="nivo-caption">
-	Helppokäyttöinen verkkokauppa Facebook-sivullasi.
+	Easy-to-use webstore in your company's Facebook site.
 </div>
 
 <div id="caption3" class="nivo-caption">
-	Kampanjasi tyylikäs näyteikkuna Facebookissa.
+	Stylish showcase of your Facebook campaign.
 </div>
