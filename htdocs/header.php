@@ -113,7 +113,7 @@ __TXT__;
 }
 
 
-$title="Jippo f-commerce";
+$title="Innolake";
 $keywords="eTietohanke, jippostore, jippo, f-commerce, webstore";
 $descwords="Jippo f-commerce, your brand means on Facebook, let's design yours.";
 $f_end=".php";
