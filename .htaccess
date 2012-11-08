@@ -6,7 +6,7 @@
 # Do not change this line.
 RewriteEngine on
 # Change yourdomain.com to be your main domain.
-RewriteCond %{HTTP_HOST} ^(www.)?innolake.com$
+RewriteCond %{HTTP_HOST} ^(www.)?innolake.com/yinnuoleike$
 # Change 'subdirectory' to be the directory you will use for your main domain.
 RewriteCond %{REQUEST_URI} !^/yinnuoleike/htdocs/
 # Don't change this line.
@@ -17,5 +17,5 @@ RewriteRule ^(.*)$ /yinnuoleike/htdocs/$1
 # Change yourdomain.com to be your main domain again.
 # Change 'subdirectory' to be the directory you will use for your main domain
 # followed by / then the main file for your site, index.php, index.html, etc.
-RewriteCond %{HTTP_HOST} ^(www.)?innolake.com/yinnuoleike$
+RewriteCond %{HTTP_HOST} ^(www.)?innolake.com$
 RewriteRule ^(/)?$ index.php [L]
