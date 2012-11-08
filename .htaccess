@@ -18,4 +18,4 @@ RewriteRule ^(.*)$ /public_html/yinnuoleike/htdocs/$1
 # Change 'subdirectory' to be the directory you will use for your main domain
 # followed by / then the main file for your site, index.php, index.html, etc.
 RewriteCond %{HTTP_HOST} ^(www.)?innolake.com$
-RewriteRule ^(/)?$ public_html/yinnuoleike/htdocs/ [L]
+RewriteRule ^(/)?$ index.php [L]
