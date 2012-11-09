@@ -3,8 +3,8 @@
 		<tbody>
 			<tr>
 				<td colspan="2">
-					<h1 style="text-align: center;" class="center">New marketing channel in your Facebook site</h1>
-					<h2 style="text-align: center;" class="center grey p30">Webstore in Facebook</h2>
+					<h1 style="text-align: center;" class="center">Best digital service design and innovation</h1>
+					<h2 style="text-align: center;" class="center grey p30">Web design and development</h2>
 					<p style="text-align: center;position:relative">
 						<img src="images/computers.jpg" width="700" alt="" />
 						<span id="computers1"></span>
@@ -12,9 +12,10 @@
 						<span id="computers2"></span>
 						<span id="retina_computers2" class="retina"></span>
 					</p>
+                                        <p>A professional team will provide innovative design solutions for you. We will keep your website up-to-date.</p>
 				</td>
 			</tr>
-			<tr>
+			<!--<tr>
 				<td>
 					<div style="position:relative">
 						<img src="images/macci.jpg" width="350" alt="" />
@@ -24,8 +25,8 @@
 				</td>
 				<td style="text-align: left; padding: 10px; width: 50%">
 					<div class="col-3 poloroidcopy last">
-						<h2>Webstore inside Facebook</h2>
-						<p>Jippostore f-Commerce is a webstore in Facebook. New marketing channel that reaches over 900 million potential customers. It is trendy new marketing channel.</p>
+						<h2>Web maintenance</h2>
+						<p>A professional team will provide innovative design solutions for you. We will keep your website up-to-date.</p>
 					</div>
 				</td>
 			</tr>
@@ -92,7 +93,7 @@
 						<p>Jippostore f-Commerceoffers a product specific like-price that you can determine. Customer reclaims your offer by liking the product and the same time giving free advertisement for your product and store.</p>
 						<p>Friend recommendations are the most efficient way to get new customers, without you having to pay for ads!</p></div>
 				</td>
-			</tr>
+			</tr>-->
 		</tbody>
 	</table>
 </div>

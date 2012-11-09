@@ -6,7 +6,7 @@
       <div class="row-fluid" style="margin-top:40px">
         <div class="span3">
           <div class="well sidebar-nav showhide">
-            <a href='#page_products'>Products</a>
+            <a href='#page_products'>Services</a>
           </div><!--/.well -->
           
           <div class="well sidebar-nav showhide">

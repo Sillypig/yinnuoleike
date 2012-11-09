@@ -1,4 +1,4 @@
-<table style="margin: 50px;">
+<!--<table style="margin: 50px;">
 	<tbody>
 		<tr>
 			<td colspan="2" style="padding-bottom:0">
@@ -139,4 +139,4 @@
 			</td>
 		</tr> 
 	</tbody>
-</table>		
+</table>-->		

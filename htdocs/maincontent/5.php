@@ -2,56 +2,56 @@
 	<tbody>
 		<tr>
 			<td>
-				<h1 style="text-align: center;">Jippostore f-Commerce features</h1>
+				<h1 style="text-align: center;">Innolake design studio service features</h1>
 				<h2>Summary</h2>
 				<ul>
-					<li>webstore in your own Facebook site</li>
-					<li>products have Facebook like price besides sales price</li>
-					<li>like discount advertises your products</li>
-					<li>pressing like, customers advertise your produts to their friends</li>
-					<li>no solid monhly payments</li>
-					<li>you only pay small comission from actual sales</li>
-					<li>top rated data security included (By Norton Verisign)</li>
-					<li>all payment methods available</li>
+					<li>Web Design</li>
+					<li>Graphic Design</li>
+					<li>Copy Writing</li>
+					<li>Advertising</li>
+					<li>Internet Marketing</li>
+					<li>Branding & Identity</li>
+					<li>System Maintenance</li>
+					<li>Social Networking Sites Apps for your own</li>
 				</ul>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<h2>Desing</h2>
+				<h2>Design</h2>
 				<ul>
-					<li>fits perfectly to Facebook</li>
-					<li>showy ads personalize your store</li>
-					<li>each product can have multiple images</li>
-					<li>you can promote products by you choice in fronpage</li>
-					<li>works with all modern browsers</li>
+					<li>From Graphical Design to Functionality Design</li>
+					<li>Innovative Design Makes Your Business and Products Impressive</li>
+					<li>Tailored Design For Your Business or Products</li>
+					<li>Emphasize on details</li>
+
 				</ul>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<h2>Business monitoring</h2>
+				<h2>Advertising</h2>
 				<ul>
-					<li>shows new orders</li>
-					<li>product specific stock alarms</li>
-					<li>complete sales reports</li>
-					<li>complete product balance reports</li>
-					<li>complete tax repotrs for bookkeeping</li>
-					<li>automatic order confirmation to customer</li>
+					<li>Advertising Campaign from Plan to Design</li>
+					<li>Multiple solutions</li>
+					<li>Innovative E-Advertising</li>
+					<li>Strengthen Branding and Identity of your Business or Product</li>
+					
 				</ul>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<h2>Scalability and usability</h2>
+				<h2>Scalability and Usability</h2>
 				<ul>
-					<li>scales according to your business</li>
-					<li>easy controllability for products and delivery methods</li>
-					<li>everything you need for web business</li>
+					<li>Scales According to Your Business</li>
+					<li>Pay Attention to Your Idea</li>
+					<li>Everything you need is Here</li>
+                                        <li>Fully Tested before Applying</li>
 				</ul>
 			</td>
 		</tr>
-		<tr>
+		<!--<tr>
 			<td>
 				<br />
 				<h1 style="text-align: center;">Jippostore f-Commerce DM</h1>
@@ -77,6 +77,6 @@
 					<li>competitions and advertising to friends</li>
 				</ul>
 			</td>
-		</tr>
+		</tr>-->
 	</tbody>
 </table>

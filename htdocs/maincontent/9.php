@@ -9,10 +9,10 @@
 					<td colspan="2" class="required product">
 						<select name="field[tuotteet]" id="product_select">
 							<option value="">I'm interested in&#8230;</option>
-							<option value="Jippostore f-Commerce">Jippostore f-Commerce</option>
-							<option value="Jippostore f-Commerce Branded">Jippostore f-Commerce Branded</option>
-							<option value="Jippostore f-Commerce Custom">Jippostore f-Commerce Custom</option>
-							<option value="Jippostore f-Commerce DM">Jippostore f-Commerce DM</option>
+							<option value="Jippostore f-Commerce">Web Maintenance</option>
+							<option value="Jippostore f-Commerce Branded">Web Design and Development</option>
+							<option value="Jippostore f-Commerce Custom">Social Networking Sites Apps</option>
+							<option value="Jippostore f-Commerce DM">Advertising</option>
 						</select>
 						<p class="iferror">I'm interested in</p>
 					</td>
