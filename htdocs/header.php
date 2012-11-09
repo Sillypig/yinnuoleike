@@ -114,7 +114,7 @@ $title="Innolake";
 $keywords="eTietohanke, jippostore, jippo, f-commerce, webstore";
 $descwords="Jippo f-commerce, your brand means on Facebook, let's design yours.";
 $f_end=".php";
-$slogan1="Your brand means on Facebook";
+$slogan1="Your best digital solutions";
 $slogan2="Let's design yours";
 $domain="jippostore.com";
 $fname="Jippo f-Commerce Oy";
@@ -198,7 +198,7 @@ unset($_SESSION['succeedMessage']);
             <ul class="nav">
            	  <li class="showhide" style="width:230px">
 				  <a id="brand" href="#page_home" title="<?= $lang['etusivu']; ?>">
-					  <img src="img/logo-jippo-footer.png" width="100" height="30" alt="Jippostore" />
+					  <img src="img/logo_innolake.png" height="35" alt="Jippostore" />
 				  </a>
 			  </li>
               <li class="showhide"><a href="#page_home">Home</a></li>

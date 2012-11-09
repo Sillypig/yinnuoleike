@@ -5,13 +5,13 @@
 </div>
 
 <div id="caption1" class="nivo-caption">
-	Your brand on Facebook.
+	Your best digital services design and innovation.
 </div>
 
 <div id="caption2" class="nivo-caption">
-	Easy-to-use webstore in your company's Facebook site.
+	Key to your successful business.
 </div>
 
 <div id="caption3" class="nivo-caption">
-	Stylish showcase of your Facebook campaign.
+	Anything you want can be found here.
 </div>
