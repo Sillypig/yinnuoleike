@@ -24,8 +24,8 @@ $(document).ready(function(){
         manualAdvance:false
     });
 	
-	$("#order_starter").on('click', function(e){ // activate starter order form
-		$("#product_select").val("Jippostore f-Commerce");
+	$("#order_web_maintenance").on('click', function(e){ // activate starter order form
+		$("#product_select").val("Web Maintenance");
 		$("div.span3 .showhide:eq(1)").removeClass('active');
 		$('div[id^="page_"]').css({
 			'visibility':'hidden',
@@ -42,8 +42,8 @@ $(document).ready(function(){
 		e.preventDefault();
 	});
 	
-	$("#order_branded").on('click', function(e){ // activate branded order form
-		$("#product_select").val("Jippostore f-Commerce Branded");
+	$("#order_web_design_and_development").on('click', function(e){ // activate branded order form
+		$("#product_select").val("Web Design and Development");
 		$("div.span3 .showhide:eq(1)").removeClass('active');
 		$('div[id^="page_"]').css({
 			'visibility':'hidden',
@@ -60,8 +60,8 @@ $(document).ready(function(){
 		e.preventDefault();
 	});
 	
-	$("#order_custom").on('click', function(e){ // activate custom order form
-		$("#product_select").val("Jippostore f-Commerce Custom");
+	$("#order_facebook_direct_marketing_apps").on('click', function(e){ // activate custom order form
+		$("#product_select").val("Facebook Direct Marketing Apps");
 		$("div.span3 .showhide:eq(1)").removeClass('active');
 		$('div[id^="page_"]').css({
 			'visibility':'hidden',
@@ -78,8 +78,8 @@ $(document).ready(function(){
 		e.preventDefault();
 	});
 	
-	$("#order_dm").on('click', function(e){ // activate dm order form
-		$("#product_select").val("Jippostore f-Commerce DM");
+	$("#order_advertising").on('click', function(e){ // activate dm order form
+		$("#product_select").val("Advertising");
 		$("div.span3 .showhide:eq(1)").removeClass('active');
 		$('div[id^="page_"]').css({
 			'visibility':'hidden',
