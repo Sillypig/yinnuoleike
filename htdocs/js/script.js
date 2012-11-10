@@ -119,9 +119,9 @@ $(document).ready(function(){
 	
 	$('.showhide a').click(function(){
 		if($(this).parent().hasClass('active')==false){
-			$('.active').removeClass('active').find('a').css('color','#D6E7FF');
+			$('.showhide').removeClass('active');
+			//$('.showhide').find('a').css('color','#D6E7FF');
 			$(this).parent().addClass('active');
-			$(this).css('color','#FFFFFF');
 		}
 		var jump = $(this).attr('href');
 		var new_position = $('#'+jump).offset();
