@@ -1,7 +1,5 @@
-		<div id="jippo-footer">
-			<div class="jippo-footer-first"><span><a href="https://www.innolake.com" target="_blank"><img src="img/logo_innolake.png" height="35" alt="Jippostore" /></a></span></div>
-			<div class="jippo-footer-second"><span><?php echo $slogan1; ?></span></div>
-			<div class="jippo-footer-third"><span><a href="https://www.innolake.com" target="_blank"><?php echo $slogan2; ?></a></span></div>
+		<div id="footer">
+		<a href="https://www.innolake.com" target="_blank"><img src="img/logo_innolake.png" height="35" alt="Jippostore" /></a><?php echo $slogan1; ?>
 		</div>
         
         </div><!--/span9-->

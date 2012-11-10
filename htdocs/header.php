@@ -141,7 +141,7 @@ unset($_SESSION['succeedMessage']);
 	<!--<meta property="fb:app_id" content="186013568131933" />-->
     <meta property="og:image" content="img/screenshots.png" />
     <meta property="og:url" content="http://www.innolake.com/" />
-    <meta property="og:site_name" content="Jippo f-Commerce Oy" />
+    <meta property="og:site_name" content="Innolake Official Website" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="" />
 	
@@ -172,18 +172,16 @@ unset($_SESSION['succeedMessage']);
             <span class="icon-bar"></span>
           </a>
           <div class="btn-group pull-right">
-			<!--<?php
-			if ($_SESSION["lang_name"] == 'fi'){
+			<?php
+			/*if ($_SESSION["lang_name"] == 'fi'){
 				echo "<a href='?lng=en' class='lang'>in English</a>";
 			}
 			else{
 				echo "<a href='?lng=fi' class='lang'>Suomeksi</a>";
-			}
-			?>-->
+			}*/
+			?>
           	<!--<a class="facebook sb" href="http://www.facebook.com/Innolake" title="Facebook" target="_blank"></a>
             <a class="twitter sb" href="https://twitter.com/Innolake" title="Twitter" target="_blank"></a>
-            <a class="linkedin sb" href="http://www.linkedin.com/groups/Jippo-fcommerce-4414802?gid=4414802&mostPopular=&trk=tyah" title="LinkedIn" target="_blank"></a>
-			<a class="pinterest sb" href="https://pinterest.com/jippostore/" title="Pinterest" target="_blank"></a>-->
             <!--<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
               <i class="icon-user"></i> Username
               <span class="caret"></span>
@@ -197,13 +195,13 @@ unset($_SESSION['succeedMessage']);
           <div class="nav-collapse">
             <ul class="nav">
            	  <li class="showhide" style="width:230px">
-				  <a id="brand" href="#page_home" title="<?= $lang['etusivu']; ?>">
-					  <img src="img/logo_innolake.png" height="35" alt="Innolake" style="padding-left: 70px;" />
+				  <a id="brand" href="index.php" title="Home">
+					  <img src="img/logo.png" height="35" alt="Innolake" style="padding-left: 70px;" />
 				  </a>
 			  </li>
-              <li class="showhide"><a href="#page_home">Home</a></li>
-              <li class="showhide"><a href="#page_about">Story</a></li>
-              <li class="showhide"><a href="#page_contact">Contact</a></li>
+              <li class="showhide"><a href="index.php">Home</a></li>
+              <li class="showhide"><a href="about.php">About</a></li>
+              <li class="showhide"><a href="contact.php">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

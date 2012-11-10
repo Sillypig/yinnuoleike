@@ -4,9 +4,7 @@ $(document).ready(function(){
 	}, 12000 );
 	
 	$(".sidebar-nav").fadeIn(3000);
-	$("#facepile").fadeIn(3000);
 	$("#page_home").fadeIn(3000);
-	$(".sb").fadeIn(3000);
 			
 	$(function () { // preload all images
 		$('img')
@@ -24,11 +22,19 @@ $(document).ready(function(){
     });
 	
 	$('#slider').nivoSlider({
-		effect: 'fade',
-		animSpeed: 700,
-        pauseTime: 3500,
-		pauseOnHover: true
-	});
+        effect:"random",
+        slices:15,
+        boxCols:8,
+        boxRows:4,
+        animSpeed:500,
+        pauseTime:3000,
+        startSlide:0,
+        directionNav:true,
+        controlNav:true,
+        controlNavThumbs:false,
+        pauseOnHover:true,
+        manualAdvance:false
+    });
 	
 	$(".sidebar-nav").mouseout(function(){
       $(this).removeClass("sidebar-nav-mousedown-effect");
@@ -37,36 +43,6 @@ $(document).ready(function(){
     }).mousedown(function(){
       $(this).addClass("sidebar-nav-mousedown-effect");
     });
-
-	$(".greenbutton").hover(
-		function() {
-			$(this).animate({"backgroundColor": "#6da334", "color": "#FFFFFF"}, "slow");
-		},
-		function() {
-			$(this).animate({"backgroundColor": "#8ac04f", "color": "#FFFCF9"}, "slow");
-	});
-	
-	$(".greenbutton").mouseout(function(){
-      $(this).removeClass("greenbutton-mousedown-effect");
-    }).mouseup(function(){
-      $(this).removeClass("greenbutton-mousedown-effect");
-    }).mousedown(function(){
-      $(this).addClass("greenbutton-mousedown-effect");
-    });
-	
-	$("button#product1").click(function() {
-		if($("div#products_product1").css("display")=="none"){
-			$("div#products_product2").fadeOut("fast");
-			$("div#products_product1").fadeIn("slow");
-		}
-	});
-	
-	$("button#product2").click(function() {
-		if($("div#products_product2").css("display")=="none"){
-			$("div#products_product1").fadeOut("fast");
-			$("div#products_product2").fadeIn("slow");
-		}
-	});
 	
 	$("#order_starter").on('click', function(e){ // activate starter order form
 		$("#product_select").val("Jippostore f-Commerce");
@@ -141,46 +117,6 @@ $(document).ready(function(){
 	});
 
 	
-	// keep track of which tab is active and it's associated content
-	var $active, $content, $links = $('.showhide').find('a');
-	
-	// Use the first link as the initial active tab
-	$active = $links.first().parent().addClass('active');
-	$content = $($active.find('a').attr('href'));
-	
-	// Hide the remaining content
-	$links.not(':eq(0),:eq(1)').each(function () {
-		$($(this).attr('href')).hide();
-	});
-	
-	// Bind the click event handler
-	$('.showhide').on('click', function(e){
-		// Make the old tab inactive.
-		$('.showhide').removeClass('active');		
-		$('div[id^="page_"]').css({
-			'visibility':'hidden',
-			'height':'0',
-			'margin-bottom':'0'
-		});
-
-		// Update the variables with the new link and content
-		$active = $(this);
-		$content = $($(this).find('a').attr('href'));
-	
-		// Make the tab active.
-		$active.addClass('active');
-		$content.css({
-			'visibility':'visible',
-			'height':'auto'
-		}).fadeIn('500');
-	
-		// Prevent the anchor's default click action
-		e.preventDefault();
-		
-		window.location.hash=$active.find('a').attr('href');
-		$(window).scrollTop($('#brand').position().top);
-	});
-	
 	$(".nav").find("li").not(".showhide").find("a").hover(
 		function() {
 			$(this).animate({"color": "#FFFFFF"}, "slow");
@@ -188,37 +124,7 @@ $(document).ready(function(){
 		function() {
 			$(this).animate({"color": "#656B69"}, "slow");
 	});
-	
-	$('#home_about #caseSlider').bxSlider({
-      displaySlideQty: 2,
-      moveSlideQty: 2
-    });
-	
-	$('#page_about #caseSlider').bxSlider({
-      displaySlideQty: 2,
-      moveSlideQty: 2
-    });
-	
-	if(window.location.hash!=""){
-		$('div[id^="page_"]').css({
-			'visibility':'hidden',
-			'height':'0',
-			'margin-bottom':'0'
-		});
-		$(window.location.hash).css({
-				'visibility':'visible',
-				'height':'auto'
-			}).fadeIn('500');
-		$('.showhide').removeClass('active');
-		$('.showhide a[href='+window.location.hash+']').parent().addClass('active');
 		
-		if(window.location.hash=="#page_home"){
-			window.location.href = window.location.href.split("#")[0];
-		}
-	
-		$(window).scrollTop($('#brand').position().top);
-	};
-	
 	/*$("#computers1").retinaeffect({effect: '#retina_computers1',left: 110, top: 170});
 	$("#computers2").retinaeffect({effect: '#retina_computers2',left:350, top: 35});
 	$("#computers3").retinaeffect({effect: '#retina_computers3',left:35, top: 35});

@@ -131,14 +131,14 @@
 	z-index: 9999;
 }
 .nivo-controlNav a {
-	display:inline-block;
-	width:9px;
-	height:8px;
-	background:url(../img/bullets.png) no-repeat;
-	text-indent:-9999px;
-	border:0;
-	margin: 0 4px;
+	background: url("../img/bullets.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    display: inline-block;
+    height: 10px;
+    margin: 0 2px;
+    text-indent: -9999px;
+    width: 10px;
 }
 .nivo-controlNav a.active {
-	background-position:0 -8px;
+	background-position: 0 100%;
 }
