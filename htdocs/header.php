@@ -196,7 +196,7 @@ unset($_SESSION['succeedMessage']);
             <ul class="nav">
            	  <li class="showhide" style="width:230px">
 				  <a id="brand" href="index.php" title="Home">
-					  <img src="img/logo_innolake.png" height="35" alt="Innolake" style="padding-left: 70px;" />
+					  <img src="img/logo.png" height="35" alt="Innolake" style="padding-left: 70px;" />
 				  </a>
 			  </li>
               <li class="showhide"><a href="index.php">Home</a></li>

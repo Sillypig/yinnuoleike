@@ -22,11 +22,19 @@ $(document).ready(function(){
     });
 	
 	$('#slider').nivoSlider({
-		effect: 'fade',
-		animSpeed: 700,
-        pauseTime: 3500,
-		pauseOnHover: true
-	});
+        effect:"random",
+        slices:15,
+        boxCols:8,
+        boxRows:4,
+        animSpeed:500,
+        pauseTime:3000,
+        startSlide:0,
+        directionNav:true,
+        controlNav:true,
+        controlNavThumbs:false,
+        pauseOnHover:true,
+        manualAdvance:false
+    });
 	
 	$(".sidebar-nav").mouseout(function(){
       $(this).removeClass("sidebar-nav-mousedown-effect");

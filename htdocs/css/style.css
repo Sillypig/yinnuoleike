@@ -1,9 +1,8 @@
 body {
     padding-bottom: 40px;
-	background:url(../img/bodyBg.jpg) repeat scroll 0 0 transparent;
-	color: #656b69;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	background:url(../img/bodyBg.jpg) repeat scroll 0 0 #E9EDF1;
+	color: #595A5A;
+	font: 13px/1.6 "Lucida Grande",Tahoma,Verdana,Arial,sans-serif;
 }
 
 h1 {
@@ -34,13 +33,13 @@ h3 {
 .navbar .nav > li > a {
 	padding: 10px 10px 11px;
 	letter-spacing: -1px;
-/*	font-weight: bold;*/
-	font-size: 20px;
-	text-shadow: 0 1px 1px #fff;
+	color: #D6E7FF;
+	text-shadow: 0 -1px 1px #666666;
+	font-weight: bold;
 }
 
 .navbar .nav > li > a:hover {
-	color: #000;
+	color: #FFF;
 }
 
 .navbar .nav > li.active > a {
@@ -54,7 +53,7 @@ h3 {
 ul.nav #brand {
 	width: 100px;
 	height: 30px;
-	margin-top: 5px;
+	margin-top: 1px;
 	outline: none;
 	padding: 0;
 }
@@ -96,6 +95,8 @@ ul.nav #brand {
 
 .container-fluid .row-fluid .span3 {
     width: 200px;
+	position: fixed;
+	top: 80px;
 }
 
 .container-fluid .row-fluid .span3 .well {
@@ -104,6 +105,8 @@ ul.nav #brand {
 
 .container-fluid .row-fluid .span9 {
     width: 848px;
+	margin-left: 217px;
+	margin-top: 38px;
 }
 
 .container-fluid .row-fluid .span9 #page_home .hero-unit {
