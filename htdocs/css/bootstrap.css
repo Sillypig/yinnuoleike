@@ -3775,13 +3775,13 @@ input[type="submit"].btn.btn-mini {
 .navbar-fixed-top .navbar-inner,
 .navbar-fixed-bottom .navbar-inner {
   width: 100%;
-  background-color: #DADADA;
-  background-image: -moz-linear-gradient(top, #FBFBFB, #DADADA);
-  background-image: -ms-linear-gradient(top, #FBFBFB, #DADADA);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FBFBFB), to(#DADADA));
-  background-image: -webkit-linear-gradient(top, #FBFBFB, #DADADA);
-  background-image: -o-linear-gradient(top, #FBFBFB, #DADADA);
-  background-image: linear-gradient(top, #FBFBFB, #DADADA);
+  background-color: #1B63B4;
+  background-image: -moz-linear-gradient(top, #2375D1, #0D4583);
+  background-image: -ms-linear-gradient(top, #2375D1, #0D4583);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2375D1), to(#0D4583));
+  background-image: -webkit-linear-gradient(top, #2375D1, #0D4583);
+  background-image: -o-linear-gradient(top, #2375D1, #0D4583);
+  background-image: linear-gradient(top, #2375D1, #0D4583);
   background-repeat: repeat-x;
   padding-right: 0;
   padding-left: 0;
