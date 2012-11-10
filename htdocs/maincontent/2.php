@@ -4,7 +4,7 @@
 			<tr>
 				<td colspan="2">
 					<h1 style="text-align: center;" class="center">Best digital service design and innovation</h1>
-					<h2 style="text-align: center;" class="center grey p30">Web design and development</h2>
+					<!--<h2 style="text-align: center;" class="center grey p30">Web design and development</h2>-->
 					<p style="text-align: center;position:relative">
 						<img class="lazy" data-original="images/computers.jpg" src="img/image.gif" width="700" alt="" />
 						<span id="computers1"></span>

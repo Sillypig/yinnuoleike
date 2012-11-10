@@ -1,5 +1,5 @@
 <div style="padding:20px 35px;">
-	<h1>Contact</h1>
+	<h1 class="center" style="text-align: center;">Contact</h1>
 
 	<div>
 		<h2>Project Director</h2>
