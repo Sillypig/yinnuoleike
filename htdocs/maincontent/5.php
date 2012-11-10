@@ -1,4 +1,4 @@
-<table style="margin: 50px;">
+<table style="margin:0 0 50px 50px;">
 	<tbody>
 		<tr>
 			<td>

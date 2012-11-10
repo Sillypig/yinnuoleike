@@ -12,7 +12,7 @@
 						<span id="computers2"></span>
 						<span id="retina_computers2" class="retina"></span>
 					</p>
-                                        <p>A professional team will provide innovative design solutions for you. We will keep your website up-to-date.</p>
+                    <p>A professional team will provide innovative design solutions for you. We will keep your website up-to-date.</p>
 				</td>
 			</tr>
 			<!--<tr>

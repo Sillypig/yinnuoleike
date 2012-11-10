@@ -1,4 +1,4 @@
-<table style="width: 748px; height: 408px; margin: 50px;">
+<table style="width: 748px; height: 408px; margin: 50px 50px 20px;">
 	<tbody>
 		<tr>
 			<td colspan="2">

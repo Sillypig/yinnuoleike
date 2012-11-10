@@ -2,22 +2,6 @@
 session_start();
 header('Cache-control: private'); // IE 6 FIX
 
-/*if ($_SESSION["lang_name"] == '' && $_REQUEST['lng'] == ''){ // Default language is 'fi'.
-	$_SESSION["lang_name"] = 'fi';
-}
-elseif ($_SESSION["lang_name"] != '' && $_REQUEST['lng'] == ''){ // When Session 'lang_name' has value.
-}
-else{
-	if ($_REQUEST['lng'] == 'en'){ // User chooses 'en'.	
-		$_SESSION["lang_name"] = 'en';
-	}
-	elseif ($_REQUEST['lng'] == 'fi'){ // User chooses 'fi'.
-		$_SESSION["lang_name"] = 'fi';
-	}
-}
-
-include("languages/".$_SESSION["lang_name"].".php");*/
-
 if ( isset( $_POST['field'] ) ) {
 	$valid = TRUE;
 	if ( $valid ) {
@@ -172,14 +156,6 @@ unset($_SESSION['succeedMessage']);
             <span class="icon-bar"></span>
           </a>
           <div class="btn-group pull-right">
-			<?php
-			/*if ($_SESSION["lang_name"] == 'fi'){
-				echo "<a href='?lng=en' class='lang'>in English</a>";
-			}
-			else{
-				echo "<a href='?lng=fi' class='lang'>Suomeksi</a>";
-			}*/
-			?>
           	<!--<a class="facebook sb" href="http://www.facebook.com/Innolake" title="Facebook" target="_blank"></a>
             <a class="twitter sb" href="https://twitter.com/Innolake" title="Twitter" target="_blank"></a>
             <!--<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
@@ -195,13 +171,13 @@ unset($_SESSION['succeedMessage']);
           <div class="nav-collapse">
             <ul class="nav">
            	  <li class="showhide" style="width:230px">
-				  <a id="brand" href="index.php" title="Home">
+				  <a id="brand" href="page_home" title="Innolake">
 					  <img src="img/logo.png" height="35" alt="Innolake" style="padding-left: 70px;" />
 				  </a>
 			  </li>
-              <li class="showhide"><a href="index.php">Home</a></li>
-              <li class="showhide"><a href="about.php">About</a></li>
-              <li class="showhide"><a href="contact.php">Contact</a></li>
+              <li class="showhide"><a href="page_home">Home</a></li>
+              <li class="showhide"><a href="page_about">About</a></li>
+              <li class="showhide"><a href="page_contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

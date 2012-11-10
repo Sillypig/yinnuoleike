@@ -1,4 +1,4 @@
-<div class="prices" style="margin:35px;">
+<div class="prices" style="margin:20px 35px 0;">
 	<h1>Web Maintenance</h1>
 	<div class="wide">
 		<p>Keep your website up-to-date!</p>
@@ -29,5 +29,5 @@
 	<div class="right">
 		<img src="images/pricesdm_new.jpg" alt="" style="padding:5px;" />
 	</div>		
-
+	<div style="clear:both"></div>
 </div>

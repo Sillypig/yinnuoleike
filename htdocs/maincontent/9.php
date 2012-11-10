@@ -3,7 +3,7 @@
 		<div id="dialog" class="window">
 			<table style="margin: 30px;">
                 <th colspan="2" class="title">
-				<h1 class="center" style="text-align: center;">Contact</h1>
+				<h1 class="center" style="text-align: center;">Order Services</h1>
 				</th>
 				<tr>
 					<td colspan="2" class="required product">
