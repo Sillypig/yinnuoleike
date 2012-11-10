@@ -27,7 +27,7 @@
     <script src="js/bootstrap-carousel.js?v2.0.4" type="text/javascript"></script>
     <script src="js/bootstrap-typeahead.js?v2.0.4" type="text/javascript"></script>
     <script src="js/jquery.form-validation-and-hints.js" type="text/javascript"></script>
-    <script src="js/jquery.bxSlider.js?v3.0" type="text/javascript"></script>
+    <script src="js/jquery.lazyload.js?v1.8.1" type="text/javascript"></script>
 	<script src="js/script.js" type="text/javascript"></script>
 	<script src="js/zoom.js" type="text/javascript"></script>
   </body>
