@@ -5,21 +5,9 @@ $(document).ready(function(){
 	
 	$(".sidebar-nav").fadeIn(3000);
 	$("#page_home").fadeIn(3000);
-			
-	$(function () { // preload all images
-		$('img')
-		.addClass('loading')
-		.load(function () {
-			$('img').removeClass('loading');
-			if($('img.loading').size()>0)
-				return;
-            $('#preloader').delay(250).fadeOut('slow'); // hide loaders after loading images
-			$('.hero-unit #slider').delay(250).fadeIn('slow');
-			
-        }).error(function () {
-            // notify the user that the image could not be loaded
-        })
-    });
+	
+	$('#preloader').delay(250).fadeOut('slow'); // hide loaders after loading images
+	$('.hero-unit #slider').delay(250).fadeIn('slow');
 	
 	$('#slider').nivoSlider({
         effect:"random",
@@ -34,14 +22,6 @@ $(document).ready(function(){
         controlNavThumbs:false,
         pauseOnHover:true,
         manualAdvance:false
-    });
-	
-	$(".sidebar-nav").mouseout(function(){
-      $(this).removeClass("sidebar-nav-mousedown-effect");
-    }).mouseup(function(){
-      $(this).removeClass("sidebar-nav-mousedown-effect");
-    }).mousedown(function(){
-      $(this).addClass("sidebar-nav-mousedown-effect");
     });
 	
 	$("#order_starter").on('click', function(e){ // activate starter order form
@@ -120,7 +100,6 @@ $(document).ready(function(){
 	$('.showhide a').click(function(){
 		if($(this).parent().hasClass('active')==false){
 			$('.showhide').removeClass('active');
-			//$('.showhide').find('a').css('color','#D6E7FF');
 			$(this).parent().addClass('active');
 		}
 		var jump = $(this).attr('href');
@@ -128,6 +107,10 @@ $(document).ready(function(){
 		window.scrollTo(new_position.left,new_position.top-100);
 		return false;
 	});
+	
+	$(".lazy").lazyload({
+		effect : "fadeIn"
+    });
 		
 	/*$("#computers1").retinaeffect({effect: '#retina_computers1',left: 110, top: 170});
 	$("#computers2").retinaeffect({effect: '#retina_computers2',left:350, top: 35});

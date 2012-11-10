@@ -2,7 +2,6 @@ body {
     padding-bottom: 40px;
 	background:url(../img/bodyBg.jpg) repeat scroll 0 0 #E9EDF1;
 	color: #595A5A;
-	font: 13px/1.6 "Lucida Grande",Tahoma,Verdana,Arial,sans-serif;
 }
 
 h1 {
@@ -144,7 +143,7 @@ ul.nav #brand {
 	color: #D6E7FF;
  	text-decoration: none;
   	outline: none;
-	text-shadow: 0 1px 1px #fff;
+	text-shadow: 0 -1px 1px #666666;
 }
 
 .sidebar-nav a:hover {
@@ -338,126 +337,13 @@ ul.nav #brand {
 	margin: 31px 0;
 }
 
-#page_about .emboss-section, #home_about .emboss-section {
-    margin: 0;
-    padding: 35px;
-	background: none repeat scroll 0 0 rgba(162, 162, 162, 0.2);
-    border-color: #ABABA9 transparent #E1E0DF;
-    border-radius: 5px 5px 5px 5px;
-    border-style: solid;
-    border-width: 1px 0;
-}
-
-#page_about .bx-wrapper, #page_about .bx-window, #home_about .bx-wrapper, #home_about .bx-window{
-    width: 678px !important;
-}
-
-#page_about .case-studies li, #home_about .case-studies li {
-    padding: 0 52px 0 0;
-    width: 285px;
-	background-repeat: no-repeat;
-    display: inline-block;
-}
-
-#page_about .bx-prev, #page_about .bx-next, #home_about .bx-prev, #home_about .bx-next{
-    background-image: url(../img/about_arrows.png);
-    background-repeat: no-repeat;
-    height: 57px;
-    width: 57px;
-	outline: none;
-}
-
-#page_about .bx-prev, #home_about .bx-prev {
-    background-position: 0 0;
-    left: -63px;
-	position: absolute;
-    text-indent: -999999px;
-    top: 40%;
-    z-index: 995;
-	
-}
-
-#page_about .bx-next, #home_about .bx-next {
-    background-position: -71px 0;
-    right: -66px;
-	position: absolute;
-    text-indent: -999999px;
-    top: 40%;
-    z-index: 995;
-}
-
-#page_about .case-studies li h1 a, #home_about .case-studies li h1 a {
-    text-align: left;
-	color: #343434;
-	font-size: 26px;
-    line-height: 32px;
-	font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.4);
-	letter-spacing: -1px;
-	font-weight: normal;
-}
-
 #page_about h1, #page_about h2, #page_about h3, #home_about h1, #home_about, h2, #home_about h3 {
 	color: #343434;
-	font-family: Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.4);
-	font-weight: normal;
 }
 
 #page_about p, #home_about p {
-	font-family: Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.4);
-}
-
-#page_about .case-studies li p a, #home_about .case-studies li p a {
-    line-height: 1.7em;
-	color: #666666;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-	text-align: left;
-	text-shadow: 1px 1px rgba(255, 255, 255, 0.3);
-}
-
-#page_about .pager, #home_about .pager {
-    text-align: left;
-}
-
-#page_about .pager a, #home_about .pager a {
-    background-color: transparent;
-    border: none;
-    border-radius: 0;
-    padding: 0;
-}
-
-#page_about .featured-screenshot, #home_about .featured-screenshot {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border-bottom: 1px solid #AAAAAA;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
-    padding: 7px 7px 6px;
-}
-
-#page_about .featured-avatar, #home_about .featured-avatar {
-    -webkit-transform: rotate(2deg);  /* Safari 3.1+, Chrome */ 
-     -moz-transform: rotate(2deg);  /* Firefox 3.5-15 */
-      -ms-transform: rotate(2deg);  /* IE9 */
-       -o-transform: rotate(2deg);  /* Opera 10.5-12.00 */
-          transform: rotate(2deg);  /* Firefox 16+, Opera 12.50+ */
-    background: none repeat scroll 0 0 #FFFFFF;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #AAAAAA;
-    border-style: solid;
-    border-width: 1px;
-    box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.05);
-    left: 13px;
-    margin-bottom: -65px;
-    padding: 4px 4px 3px;
-    position: relative;
-    top: -72px;
-    width: 80px;
-}
-
-#page_about .featured-avatar img, #home_about .featured-avatar {
-    height: 80px;
-    width: 80px;
 }
 
 #boxes .window {
@@ -525,7 +411,6 @@ ul.nav #brand {
     cursor: pointer;
 	text-align: center;
 	vertical-align: middle;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: normal;
 	width: 176px;
 	padding: 9px 60px;
@@ -571,7 +456,6 @@ td.required{
 #footer {
 	position: relative;
 	height: 81px;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	color: #707173;
 }
