@@ -3,17 +3,26 @@ $(document).ready(function(){
 		$("div#succeed_message").hide();
 	}, 12000 );
 	
-	$(".sidebar-nav").fadeIn(3000);
-	$("#page_home").fadeIn(3000);
+	$(".sidebar-nav").fadeIn(1000);
+	$("#page_home").fadeIn(1000);
 	
-	$('#preloader').delay(250).fadeOut('slow'); // hide loaders after loading images
-	$('.hero-unit #slider').delay(250).fadeIn('slow');
+	$(function () { // preload nivoslider images
+		$('#slider img')
+		.addClass('loading')
+		.load(function () {
+			$('#slider img').removeClass('loading');
+			if($('img.loading').size()>0)
+				return;
+            $('#preloader').delay(250).fadeOut('slow'); // hide loaders after loading images
+			$('.hero-unit #slider').delay(250).fadeIn('slow');
+			
+        }).error(function () {
+            // notify the user that the image could not be loaded
+        })
+    });
 	
 	$('#slider').nivoSlider({
-        effect:"random",
-        slices:15,
-        boxCols:8,
-        boxRows:4,
+        effect:"fade",
         animSpeed:500,
         pauseTime:3000,
         startSlide:0,
@@ -24,79 +33,38 @@ $(document).ready(function(){
         manualAdvance:false
     });
 	
-	$("#order_starter").on('click', function(e){ // activate starter order form
-		$("#product_select").val("Jippostore f-Commerce");
-		$("div.span3 .showhide:eq(1)").removeClass('active');
-		$('div[id^="page_"]').css({
-			'visibility':'hidden',
-			'height':'0',
-			'margin-bottom':'0'
-		});
-		$("div.span3 .showhide:eq(3)").addClass('active');
-		$("#page_orderForm").css({
-			'visibility':'visible',
-			'height':'auto'
-		}).fadeIn('500');
-		
-		$(window).scrollTop($('#brand').position().top);
-		e.preventDefault();
+	$("#order_web_maintenance").click(function(){
+		$("#product_select").val("Web Maintenance");
+		var jump = $(this).attr('href');
+		var new_position = $('#'+jump).offset();
+		window.scrollTo(new_position.left,new_position.top-100);
+		return false;
 	});
 	
-	$("#order_branded").on('click', function(e){ // activate branded order form
-		$("#product_select").val("Jippostore f-Commerce Branded");
-		$("div.span3 .showhide:eq(1)").removeClass('active');
-		$('div[id^="page_"]').css({
-			'visibility':'hidden',
-			'height':'0',
-			'margin-bottom':'0'
-		});
-		$("div.span3 .showhide:eq(3)").addClass('active');
-		$("#page_orderForm").css({
-			'visibility':'visible',
-			'height':'auto'
-		}).fadeIn('500');
-		
-		$(window).scrollTop($('#brand').position().top);
-		e.preventDefault();
+	$("#order_web_design_and_development").click(function(){
+		$("#product_select").val("Web Design and Development");
+		var jump = $(this).attr('href');
+		var new_position = $('#'+jump).offset();
+		window.scrollTo(new_position.left,new_position.top-100);
+		return false;
 	});
 	
-	$("#order_custom").on('click', function(e){ // activate custom order form
-		$("#product_select").val("Jippostore f-Commerce Custom");
-		$("div.span3 .showhide:eq(1)").removeClass('active');
-		$('div[id^="page_"]').css({
-			'visibility':'hidden',
-			'height':'0',
-			'margin-bottom':'0'
-		});
-		$("div.span3 .showhide:eq(3)").addClass('active');
-		$("#page_orderForm").css({
-			'visibility':'visible',
-			'height':'auto'
-		}).fadeIn('500');
-		
-		$(window).scrollTop($('#brand').position().top);
-		e.preventDefault();
+	$("#order_facebook_direct_marketing_apps").click(function(){
+		$("#product_select").val("Facebook Direct Marketing Apps");
+		var jump = $(this).attr('href');
+		var new_position = $('#'+jump).offset();
+		window.scrollTo(new_position.left,new_position.top-100);
+		return false;
 	});
 	
-	$("#order_dm").on('click', function(e){ // activate dm order form
-		$("#product_select").val("Jippostore f-Commerce DM");
-		$("div.span3 .showhide:eq(1)").removeClass('active');
-		$('div[id^="page_"]').css({
-			'visibility':'hidden',
-			'height':'0',
-			'margin-bottom':'0'
-		});
-		$("div.span3 .showhide:eq(3)").addClass('active');
-		$("#page_orderForm").css({
-			'visibility':'visible',
-			'height':'auto'
-		}).fadeIn('500');
-		
-		$(window).scrollTop($('#brand').position().top);
-		e.preventDefault();
+	$("#order_advertising").click(function(){
+		$("#product_select").val("Advertising");
+		var jump = $(this).attr('href');
+		var new_position = $('#'+jump).offset();
+		window.scrollTo(new_position.left,new_position.top-100);
+		return false;
 	});
 
-	
 	$('.showhide a').click(function(){
 		if($(this).parent().hasClass('active')==false){
 			$('.showhide').removeClass('active');
