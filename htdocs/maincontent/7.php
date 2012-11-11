@@ -1,5 +1,5 @@
 <div style="padding:20px 35px;">
-	<h1 class="center" style="text-align: center;">Contact</h1>
+	<h1 class="center" style="text-align: center;">Contact Us</h1>
         <img class="lazy" data-original="images/contact.jpg" src="img/image.gif" alt="Contact us" style="float: right; margin:30px 50px 0 0;"/>
 	<div>
 		<h2>Project Director</h2>
