@@ -51,32 +51,5 @@
 				</ul>
 			</td>
 		</tr>
-		<!--<tr>
-			<td>
-				<br />
-				<h1 style="text-align: center;">Jippostore f-Commerce DM</h1>
-				<h2>Summary</h2>
-				<ul>
-					<li>campaign solution made for Your brand</li>
-					<li>inside your own Facebook site</li>
-					<li>you get fans, customers and visibility</li>
-					<li>take your brand there where your customers spend their time</li>
-					<li>real time raports</li>
-					<li>works with all modern browsers</li>
-				</ul>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<h2>Scalability and usability</h2>
-				<h3>Scales according to your business and can be implemented with following features:</h3><br />
-				<ul>
-					<li>like button actions</li>
-					<li>online payment (all payment methods)</li>
-					<li>receiving and delivering orders to external systems</li>
-					<li>competitions and advertising to friends</li>
-				</ul>
-			</td>
-		</tr>-->
 	</tbody>
 </table>

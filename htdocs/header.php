@@ -161,12 +161,7 @@ unset($_SESSION['succeedMessage']);
             <!--<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
               <i class="icon-user"></i> Username
               <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Profile</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Sign Out</a></li>
-            </ul>-->
+            </a>-->
           </div>
           <div class="nav-collapse">
             <ul class="nav">

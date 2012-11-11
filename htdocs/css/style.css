@@ -33,7 +33,7 @@ a {
 	outline: none;
 }
 
-ul {
+.span3 ul {
 	list-style: none;
 	margin: 0;
 }
@@ -104,7 +104,7 @@ ul.nav #brand {
 .container-fluid .row-fluid .span3 {
     width: 200px;
 	position: fixed;
-	top: 80px;
+	top: 78px;
 }
 
 .container-fluid .row-fluid .span3 .well {
@@ -114,7 +114,7 @@ ul.nav #brand {
 .container-fluid .row-fluid .span9 {
     width: 848px;
 	margin-left: 217px;
-	margin-top: 38px;
+	margin-top: 40px;
 }
 
 .container-fluid .row-fluid .span9 #page_home .hero-unit {
@@ -196,7 +196,7 @@ ul.nav #brand {
 }
 
 #page_services a, #page_about a, #page_prices a, #home_about a {
-	color: #578830;
+	color: #248EFD;
     text-decoration: none;
 }
 
@@ -266,7 +266,7 @@ ul.nav #brand {
 }
 
 .span9 .hero-unit {
-    height: 526px;
+    height: 500px;
 /*	margin-bottom: 20px;*/
 	background: #fff;
 	-webkit-border-radius: 4px;
@@ -293,12 +293,12 @@ ul.nav #brand {
 	 left:0; 
 	 z-index:9997;
 	 width:848px; 
-	 height:526px;
+	 height:500px;
 }
 
 .span9 .hero-unit #slider {
 	display: none;
-	height: 526px;
+	height: 500px;
 	width: 848px;
 }
 
@@ -335,15 +335,6 @@ ul.nav #brand {
 .span9 .row-fluid .showhide p{
     height: 120px;
 	margin: 31px 0;
-}
-
-#page_about h1, #page_about h2, #page_about h3, #home_about h1, #home_about, h2, #home_about h3 {
-	color: #343434;
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.4);
-}
-
-#page_about p, #home_about p {
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.4);
 }
 
 #boxes .window {
@@ -407,18 +398,16 @@ ul.nav #brand {
     text-shadow: none;
 	padding-top: 10px;
 }
-.order_btn{
+input.send_button{
     cursor: pointer;
-	text-align: center;
-	vertical-align: middle;
-	font-weight: normal;
-	width: 176px;
-	padding: 9px 60px;
-    text-transform: uppercase;
+	width: 215px;
+	height: 51px;
+	border: none;
+    background: url(../img/send.png) no-repeat 0 0;
 }
 
-.order_btn:hover{
-	background-color: #51A351;
+input.send_button:hover{
+	background: url(../img/send.png) no-repeat 0 -51px;
 }
 
 /* --- ERRORS --- */
@@ -507,6 +496,7 @@ div.wide {
 }
 
 .nivo-controlNav {
+	bottom: -13px;
 	right: 20px;
 	padding: 20px 0;
 }

@@ -74,7 +74,7 @@
 				</tr>
 				<tr>
 					<td>
-						<input class="order_btn btn btn-large btn-success" type="submit" value="Send"/>
+						<input class="send_button" type="submit" value=""/>
 					</td>
 				</tr>
 			</table>				
