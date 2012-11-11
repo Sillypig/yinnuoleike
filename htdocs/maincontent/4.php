@@ -1,6 +1,9 @@
 <div class="prices" style="margin:20px 35px 0;">
 	<h1 style="text-align: center;">Web Maintenance</h1>
-	<div class="wide">
+	<div class="left">
+		<img class="lazy" data-original="images/desk.jpg" src="img/image.gif" alt="" width="350px" />
+	</div>
+	<div class="right">
 		<p>Quick and effective update is essential to effective website maintenance whether changes, updates, images, performance review, change control, quality assurance, monitoring website and its infrastructure, feedback and web content management.</p>
 		<p>Get it done as soon as it possible.</p>
 		<h3><a class="price" id="order_web_maintenance" href="page_orderForm">Ask for an offer!</a></h3>
@@ -29,6 +32,6 @@
 	</div>
 	<div class="right">
 		<img class="lazy" data-original="images/pricesdm_new.jpg" src="img/image.gif" alt="" style="padding:5px;" />
-	</div>		
+	</div>
 	<div style="clear:both"></div>
 </div>

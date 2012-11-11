@@ -2,7 +2,7 @@
 	<tbody>
 		<tr>
 			<td colspan="2">
-				<h1 style="text-align: center;" class="center">Our Story<br></h1>
+				<h1 style="text-align: center;" class="center">About Us<br></h1>
 				<h2 style="text-align: center;" class="center grey p30">A Startup Need Your Support and Worth Your Trust</h2>
 			</td>
 		</tr>

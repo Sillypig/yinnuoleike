@@ -2,7 +2,7 @@
 	<tbody>
 		<tr>
 			<td>
-				<h1 style="text-align: center;">Innolake service features</h1>
+				<h1 style="text-align: center;">Innolake Service Features</h1>
 				<h2>Summary</h2>
 				<ul>
 					<li>Web Design</li>
