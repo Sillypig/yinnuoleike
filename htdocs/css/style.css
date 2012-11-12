@@ -105,10 +105,21 @@ ul.nav #brand {
 	display: none;
 }
 
+.container-fluid .btn-group .facebook {
+    background: url("../img/facebook.png") no-repeat scroll 0 0 transparent;
+	display: inline;
+	margin-right: 8px;
+	float: right;
+    outline: medium none;
+}
+.container-fluid .btn-group .facebook:hover {
+    background-position: 0 -25px;
+}
+
 .container-fluid .row-fluid .span3 {
     width: 200px;
 	position: fixed;
-	top: 78px;
+	top: 58px;
 }
 
 .container-fluid .row-fluid .span3 .well {

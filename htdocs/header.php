@@ -55,7 +55,7 @@ if ( isset( $_POST['field'] ) ) {
 		}*/
 		
 		extract( $orderdata );
-		$subject = 'Yhteydenottopyyntö Jippo WWW';
+		$subject = 'There is an Innolake order';
 		$message = <<<__TXT__
 Etunimi = {$etunimi}
 	
@@ -156,8 +156,8 @@ unset($_SESSION['succeedMessage']);
             <span class="icon-bar"></span>
           </a>
           <div class="btn-group pull-right">
-          	<!--<a class="facebook sb" href="http://www.facebook.com/Innolake" title="Facebook" target="_blank"></a>
-            <a class="twitter sb" href="https://twitter.com/Innolake" title="Twitter" target="_blank"></a>
+          	<a class="facebook sb" href="http://www.facebook.com/Innolake" title="Facebook" target="_blank"></a>
+            <!--<a class="twitter sb" href="https://twitter.com/Innolake" title="Twitter" target="_blank"></a>
             <!--<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
               <i class="icon-user"></i> Username
               <span class="caret"></span>

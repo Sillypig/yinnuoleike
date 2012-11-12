@@ -3,7 +3,7 @@
 ?>
 
     <div class="container-fluid">
-      <div class="row-fluid" style="margin-top:40px">
+      <div class="row-fluid" style="margin-top:20px">
 		<?php
 			include("left.php");
 		?>
