@@ -38,6 +38,10 @@ a {
 	margin: 0;
 }
 
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner{
+    background: #1B63B4 url(../img/bg.jpg) repeat-x 0 0;
+}
+
 .navbar .nav > li > a {
 	padding: 10px 10px 11px;
 	letter-spacing: -1px;
