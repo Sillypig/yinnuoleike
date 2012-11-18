@@ -3,7 +3,7 @@
 		<tr>
 			<td>
 				<h1 style="text-align: center;">Innolake Service Features</h1>
-				<h2>Summary</h2>
+				<h2><img src="img/summary.gif" alt="" style="margin-right: 10px;margin-bottom: 5px" />Summary</h2>
 				<ul>
 					<li>Web Design</li>
 					<li>Graphic Design</li>
@@ -18,7 +18,7 @@
 		</tr>
 		<tr>
 			<td>
-				<h2>Design</h2>
+				<h2><img src="img/design.gif" alt="" style="margin-right: 10px;margin-bottom: 5px" />Design</h2>
 				<ul>
 					<li>From Graphical Design to Functionality Design</li>
 					<li>Innovative Design Makes Your Business and Products Impressive</li>
@@ -30,7 +30,7 @@
 		</tr>
 		<tr>
 			<td>
-				<h2>Advertising</h2>
+				<h2><img src="img/advertising.gif" alt="" style="margin-right: 10px;margin-bottom: 5px" />Advertising</h2>
 				<ul>
 					<li>Advertising Campaign from Plan to Design</li>
 					<li>Multiple solutions</li>
@@ -42,7 +42,7 @@
 		</tr>
 		<tr>
 			<td>
-				<h2>Scalability and Usability</h2>
+				<h2><img src="img/usability.gif" alt="" style="margin-right: 10px;margin-bottom: 5px" />Scalability and Usability</h2>
 				<ul>
 					<li>Scales According to Your Business</li>
 					<li>Pay Attention to Your Idea</li>

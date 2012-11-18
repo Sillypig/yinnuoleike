@@ -497,17 +497,17 @@ div.prices p {
 div.left {
 	float: left;
 	width: 50%;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 div.right {
 	float: right;
 	width: 50%;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 div.wide {
 	width: 100%;
 	float: left;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .nivo-controlNav {

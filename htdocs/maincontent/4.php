@@ -19,6 +19,9 @@
 	</div>
 	<h1 style="text-align: center;">Ready Facebook Campaign Solution</h1>
 	<div class="wide">
+		<p style="text-align: center;position:relative">
+			<img class="lazy" data-original="images/fb_campaign.jpg" src="img/image.gif" width="700" alt="" />
+		</p>
 		<p>In your company's Facebook page. Really show marketing images to get more customers, potential sales contacts and fans and make your brand noticed. It is delivered fully ready to use. You decide when to go live with the campaign.</p>
 		<p>It goes well with selling, getting potential sales contacts and promoting single products in Facebook. Design is always custom made to fit your brand. Basic idea is very straight forward: Like the page, get special benefit and order. During campaigns you get increasing amount of new orders and fans for your site.</p>
 		<p>Does it sound cool? Sounds cool? Let's design yours!</p>
