@@ -4,6 +4,8 @@
 			<div class="footer_right">Copyright&copy;2012 Innolake</div>
 		</div>
         
+		<a title="Click to go to top" id="scroll_top" href="javascript:;"><img src="img/go_to_top.png" alt="" /></a>
+
         </div><!--/span9-->
       </div><!--/row-fluid-->
 		  		  

@@ -3,7 +3,7 @@ $(document).ready(function(){
 		$("div#succeed_message").hide();
 	}, 12000 );
 	
-	$(".sidebar-nav").fadeIn(1000);
+	$(".span3").fadeIn(1000);
 	$("#page_home").fadeIn(1000);
 	
 	$(function () { // preload nivoslider images
@@ -79,6 +79,10 @@ $(document).ready(function(){
 	$(".lazy").lazyload({
 		effect : "fadeIn"
     });
+	
+	$('#scroll_top').click(function(){
+		$('html, body').animate({ scrollTop: 0 }, 'slow');
+	});
 		
 	/*$("#computers1").retinaeffect({effect: '#retina_computers1',left: 110, top: 170});
 	$("#computers2").retinaeffect({effect: '#retina_computers2',left:350, top: 35});
