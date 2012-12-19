@@ -94,7 +94,7 @@ __TXT__;
 }
 
 
-$title="Innolake";
+$title="Innolake Digital Service Innovation";
 $keywords="Innolake, Finland, innovation, web, service, solution, design, advertising, website, maintanence";
 $descwords="Innolake, your best digital solutions.";
 $f_end=".php";
