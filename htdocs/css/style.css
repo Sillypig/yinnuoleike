@@ -7,7 +7,7 @@ h1 {
 	font-weight: normal;
 	font-style: normal;
 	font-size: 2.0rem;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	/*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);*/
 	margin-bottom: 20px;
 	line-height: 50px;
 }
@@ -100,14 +100,18 @@ ul.nav #brand {
 }
 
 .container-fluid .btn-group .facebook {
-    background: url("../img/facebook.png") no-repeat scroll 0 0 transparent;
+    background: url("../img/fb.png") no-repeat scroll 0 0 transparent;
 	display: inline;
-	margin-right: 8px;
 	float: right;
     outline: medium none;
+	height: 25px;
+	width: 82px;
+	opacity: 0.9;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
 }
 .container-fluid .btn-group .facebook:hover {
-    background-position: 0 -25px;
+    opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .container-fluid .row-fluid .span3 {
