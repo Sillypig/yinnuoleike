@@ -47,7 +47,7 @@
 					<li>Scales According to Your Business</li>
 					<li>Pay Attention to Your Idea</li>
 					<li>Everything you need is Here</li>
-                                        <li>Fully Tested before Applying</li>
+                    <li>Fully Tested before Applying</li>
 				</ul>
 			</td>
 		</tr>

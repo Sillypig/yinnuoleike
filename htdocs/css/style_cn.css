@@ -438,11 +438,11 @@ input.send_button{
 	width: 215px;
 	height: 51px;
 	border: none;
-    background: url(../img/send.png) no-repeat 0 0;
+    background: url(../img/send_cn.png) no-repeat 0 0;
 }
 
 input.send_button:hover{
-	background: url(../img/send.png) no-repeat 0 -51px;
+	background: url(../img/send_cn.png) no-repeat 0 -51px;
 }
 
 /* --- ERRORS --- */

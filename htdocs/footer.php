@@ -1,5 +1,5 @@
 		<div id="footer">
-			<div class="footer_left"><a href="https://www.innolake.com" target="_blank"><img src="img/logo_innolake.png" height="35" alt="Jippostore" /></a></div>
+			<div class="footer_left"><a href="http://www.innolake.com" target="_blank"><img src="img/logo_innolake.png" height="35" alt="Innolake" /></a></div>
 			<div class="footer_middle"><?php echo $slogan1; ?></div>
 			<div class="footer_right">Copyright&copy;2012 Innolake</div>
 		</div>
