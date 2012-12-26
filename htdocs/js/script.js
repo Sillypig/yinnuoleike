@@ -2,8 +2,7 @@ $(document).ready(function(){
 	setTimeout(function(){ 
 		$("div#succeed_message").hide();
 	}, 12000 );
-	
-	$(".span3").fadeIn(1000);
+
 	$("#page_home").fadeIn(1000);
 	
 	$(function () { // preload nivoslider images
