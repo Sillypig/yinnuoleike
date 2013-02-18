@@ -19,10 +19,10 @@
 		<p>shirley.you@innolake.com</p>
 		<p><?php echo 'Tel: ' . $fphone2; ?></p>
 	</div>
-	<div class="row-fluid" style="margin-top: 20px;">
+	<!--<div class="row-fluid" style="margin-top: 20px;">
 		<h2>Services</h2>
 		<p>service@innolake.com</p>
 		<p><?php echo 'Tel: ' . $fphone1; ?></p>
-	</div>
+	</div>-->
 	
 </div>
