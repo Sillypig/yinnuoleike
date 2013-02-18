@@ -108,6 +108,7 @@ $fcity="Espoo";
 $fcountry="Finland";
 $fphone1="+358 (0)40 570 1088";
 $fphone2="+358 (0)44 588 6303";
+$fphone3="+358 (0)50 313 0771";
 $femail="service@$domain";
 $succeedMessage=@$_SESSION['succeedMessage'];
 unset($_SESSION['succeedMessage']);

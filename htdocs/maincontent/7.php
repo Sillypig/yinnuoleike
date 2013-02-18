@@ -6,7 +6,13 @@
 		<p>Shiying Weng</p>
 		<p>shiying.weng@innolake.com</p>
 		<p><?php echo 'Tel: ' . $fphone1; ?></p>		  
-	</div>	
+	</div>
+        <div style="margin-top: 20px;">
+		<h2>Operations Director</h2>
+		<p>Maxim Anikin</p>
+		<p>maxim.anikin@innolake.com</p>
+		<p><?php echo 'Tel: ' . $fphone3; ?></p>
+	</div>
         <div style="margin-top: 20px;">
 		<h2>Marketing Director</h2>
 		<p>Shirley You</p>
