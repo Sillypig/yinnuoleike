@@ -1,16 +1,16 @@
 <div class="span3">
 	<ul>
 		<li class="showhide sidebar-nav">
-			<a href='page_services'>Palvelut</a><!--/.well -->
+			<a href='page_services' >Palvelut</a><!--/.well -->
 		</li>
 		<li class="showhide sidebar-nav">      
-			<a href='page_prices'>Hinnat</a><!--/.well -->
+			<a href='page_prices' >Hinnat</a><!--/.well -->
         </li>
 		<li class="showhide sidebar-nav">
-			<a href='page_features'>Tarkemmin palveluista</a><!--/.well -->     
+			<a href='page_features' >Tiedot</a><!--/.well -->     
         </li>
 		<li class="showhide sidebar-nav">
-			<a href='page_orderForm'>Tilaa</a><!--/.well -->
+			<a href='page_orderForm' >Tilaa</a><!--/.well -->
 		</li>
 		<li>
 			<div id="facepile" style="height:250px;width:200px;overflow:hidden;">

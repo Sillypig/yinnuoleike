@@ -135,7 +135,7 @@ unset($_SESSION['succeedMessage']);
     <link href="../css/bootstrap.css?v2.0.4" rel="stylesheet" />
 	<link href="../css/jquery.nivo.slider.css" rel="stylesheet" />
 	<link href="../css/jquery-ui-1.8.21.custom.css?v1.8.21" rel="stylesheet" />
-    <link href="../css/style_cn.css" rel="stylesheet" />
+    <link href="../css/style_fi.css" rel="stylesheet" />
     
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
